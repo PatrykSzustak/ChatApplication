@@ -1,4 +1,4 @@
-package com.patryk.patryk.web;
+package com.patryk.patryk.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

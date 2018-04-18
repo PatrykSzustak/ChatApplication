@@ -1,5 +1,6 @@
 package com.patryk.patryk;
 
+import com.patryk.patryk.model.Message;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
@@ -16,5 +17,6 @@ public class Main extends SpringBootServletInitializer {
 
     public static void main(String[] args) {
         SpringApplication.run(Main.class, args);
+
     }
 }
