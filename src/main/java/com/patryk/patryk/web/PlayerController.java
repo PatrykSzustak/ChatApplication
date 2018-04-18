@@ -4,12 +4,12 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import com.patryk.patryk.service.PlayerService;
+//import com.patryk.patryk.service.PlayerService;
 
 @Controller
 public class PlayerController {
 
-    private final PlayerService service;
+   /* private final PlayerService service;
 
     public PlayerController(PlayerService service) {
         this.service = service;
@@ -27,5 +27,6 @@ public class PlayerController {
 
         return "playersPage";
     }
+    */
 
 }
